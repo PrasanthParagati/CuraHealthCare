@@ -24,8 +24,8 @@ public class Basetest {
 	public static WebDriver driver;
 
 	public Basetest() {
-
-		try {
+		
+       try {
 			file = new FileInputStream("./src/main/java/com/configprop/credprop");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
